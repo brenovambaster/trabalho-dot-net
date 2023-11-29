@@ -1,0 +1,69 @@
+@page "/veiculos"
+@inject VeiculoService service
+@inject IJSRuntime JS
+
+<h1 class="text-center">Listagem de veículos cadastrados</h1>
+<div class="col mt-2 mb-4">
+    <a href="novoveiculo" class="btn btn-warning oi oi-plus "> Cadastar veículo</a>
+    <a href="veiculos/" class="btn btn-info oi oi-magnifying-glass "> Pesquisar por placa</a>
+</div>
+<div class="container mt-3">
+    <table class="table  table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>Placa</th>
+                <th>Chassi</th>
+                <th>Cor</th>
+                <th>Modelo</th>
+                <th>Ano</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var veiculo in veiculos)
+            {
+                <tr>
+                    <td>@veiculo.Placa</td>
+                    <td>@veiculo.Chassi</td>
+                    <td>@veiculo.Cor</td>
+                    <td>@veiculo.Modelo</td>
+                    <td>@veiculo.Ano_fabricacao</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm" @onclick="(()=>removeVeiculo(veiculo))">
+                            <span class="oi oi-trash"></span>
+                        </button>
+                        <button class="btn btn-warning btn-sm"><span class="oi oi-pencil"></span></button>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    List<Veiculo> veiculos = new List<Veiculo>();
+
+    private async Task AtualizaVeiculos()
+    {
+        veiculos = await service.RetornaVeiculoAsync();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await AtualizaVeiculos();
+    }
+
+    private async Task removeVeiculo(Veiculo veiculo)
+    {
+        // confirmar a remoção do produto antes de deletar
+        var confirm = await JS.InvokeAsync<bool>("confirm", $"Deseja remover o produto {veiculo.Modelo}?");
+        if (confirm)
+        {
+            await service.DeleteVeiculoAsync(veiculo);
+            await AtualizaVeiculos();
+        }
+    }
+
+
+}

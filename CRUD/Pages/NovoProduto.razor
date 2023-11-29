@@ -1,0 +1,53 @@
+﻿@page "/novoproduto"
+@inject ProdutoServices service
+
+<div class="row m-5">
+    <div class="col-5 bg-light m-2 justify-content-start">
+        <div class="p-3 mb-3 bg-primary text-white text-center">Novo Produto</div>
+        <EditForm Model="@Prod">
+            <div class="form-group">
+                <label for="nome">Nome Produto</label>
+                <input type="text" id="name" class="form-control" @bind-value="@Prod.Nome" />
+            </div>
+            <div class="form-group">
+                <label for="preço">Preço</label>
+                <input type="text" id="preco" class="form-control" @bind="@Prod.Preço" />
+            </div>
+            <div class="form-group">
+                <label for="quant">Quantidade</label>
+                <input type="text" id="quantity" class="form-control" @bind="@Prod.Quant" />
+            </div>
+            <div class="form-group">
+                <label for="Descr">Descrição</label>
+                <input type="text" id="Descricao" class="form-control" @bind="@Prod.Descr" />
+            </div>
+            <div class="text-center p-3 mb-3">
+                <button class="btn btn-info" @onclick="AdicionarProduto"> Adicionar Produto</button>
+            </div>
+        </EditForm>
+
+    </div>
+
+    <div class="text-center text-info p-3 mb-3">
+        <h3>@mensagem </h3>
+    </div>
+
+</div>
+@code {
+
+    public Produto Prod { get; set; } = new();
+    public string mensagem = "";
+    private async Task AdicionarProduto()
+    {
+        if ((Prod.Nome == null || Prod.Nome == ""))
+        {
+            mensagem = "Nome do Produto não pode ser vazio";
+            return;
+        }
+
+        await service.AddProductAsync(Prod);
+        mensagem = "Produto " + Prod.Nome + " Adicionado com Sucesso";
+        Prod = new();
+    }
+
+}

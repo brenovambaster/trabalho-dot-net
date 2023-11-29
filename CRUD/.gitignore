@@ -1,0 +1,52 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nuget.props
+*.nuget.targets
+packages/
+
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.userprefs
+*.vscode
+
+# Ignore build artifacts
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+
+# Ignore Resharper cache files
+_resharper*
+
+# Ignore dotnet test results
+TestResults/
+
+# Ignore Blazor WebAssembly publish output
+**/bin/Release/netstandard2.1/publish/
+
+# Ignore Blazor Server publish output
+**/bin/Release/net5.0/publish/
+
+# Ignore Visual Studio Code files
+.vscode/
