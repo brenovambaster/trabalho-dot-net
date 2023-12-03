@@ -1,7 +1,7 @@
 # Veículos
 - [x] create
 - [x] read
-- [ ] update
+- [x] update
 - [x] delet
 
 # Peças

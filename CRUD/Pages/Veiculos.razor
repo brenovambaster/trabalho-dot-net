@@ -1,6 +1,8 @@
 @page "/veiculos"
 @inject VeiculoService service
 @inject IJSRuntime JS
+@inject NavigationManager navigationManager
+@inject StateContainer stateContainer
 
 <h1 class="text-center">Listagem de veículos cadastrados</h1>
 
@@ -36,6 +38,10 @@
                         <button class="btn btn-warning btn-sm"><span class="oi oi-pencil"></span></button>
 
                     </td>
+                    <td><button class="btn" @onclick="(()=>NavegarParaEditar(veiculo))">
+                            Editar
+                        </button>
+                    </td>
                 </tr>
             }
         </tbody>
@@ -43,6 +49,7 @@
 </div>
 
 @code {
+
     List<Veiculo> veiculos = new List<Veiculo>();
 
     private async Task AtualizaVeiculos()
@@ -64,6 +71,11 @@
             await service.DeleteVeiculoAsync(veiculo);
             await AtualizaVeiculos();
         }
+    }
+    private void NavegarParaEditar(Veiculo veic)
+    {
+        stateContainer.AtualizaVeiculo(veic);
+        navigationManager.NavigateTo("/NovoVeiculo");
     }
 
 

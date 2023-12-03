@@ -1,7 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using CRUD.Data;
-
+using CRUD.Shared;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -9,7 +9,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<ProdutoServices>();
 builder.Services.AddScoped<VeiculoService>();
-
+builder.Services.AddSingleton<StateContainer>();
 builder.Services.AddDbContext<ProdutoDbContext>(options =>
 {
     options.UseSqlite("Data Source=Produtos.db");

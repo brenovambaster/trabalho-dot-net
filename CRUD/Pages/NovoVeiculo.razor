@@ -1,6 +1,8 @@
 ﻿@page "/novoveiculo"
 @inject VeiculoService service
-
+@inject StateContainer stateContainer
+@inject IJSRuntime JS
+@inject Microsoft.AspNetCore.Components.NavigationManager NavigationManager
 
 <div class="container">
     <h3 class="text-center">Novo Veiculo</h3>
@@ -59,8 +61,28 @@
             return;
         }
 
-        await service.AddVeiculoAsync(veiculo);
-        mensagem = "Veículo " + veiculo.Placa + " Adicionado com Sucesso";
+        if (stateContainer.veiculo is null)
+        {
+            await service.AddVeiculoAsync(veiculo);
+            await JS.InvokeVoidAsync("alert", "Veículo " + veiculo.Placa + " Adicionado com Sucesso");
+            NavigationManager.NavigateTo("/veiculos");
+        }
+        else
+        {
+            await service.UpdateVeiculoAsync(veiculo);
+            await JS.InvokeVoidAsync("alert", "Veículo " + veiculo.Placa + " Atualizado com Sucesso");
+
+            NavigationManager.NavigateTo("/veiculos");
+            stateContainer.veiculo = null;
+        }
         veiculo = new();
+    }
+
+    protected override void OnInitialized()
+    {
+        if (stateContainer.veiculo is not null)
+        {
+            veiculo = stateContainer.veiculo;
+        }
     }
 }
