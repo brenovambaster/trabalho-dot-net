@@ -35,13 +35,12 @@
                         <button class="btn btn-danger btn-sm" @onclick="(()=>removeVeiculo(veiculo))">
                             <span class="oi oi-trash"></span>
                         </button>
-                        <button class="btn btn-warning btn-sm"><span class="oi oi-pencil"></span></button>
+                        <button class="btn btn-warning btn-sm" @onclick="(()=>NavegarParaEditar(veiculo) )">
+                            <span class=" oi oi-pencil"></span>
+                        </button>
 
                     </td>
-                    <td><button class="btn" @onclick="(()=>NavegarParaEditar(veiculo))">
-                            Editar
-                        </button>
-                    </td>
+
                 </tr>
             }
         </tbody>
