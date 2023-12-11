@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dsiNJ/0EmwN33AKQ41Izex1yl+8S42ZKXYIsu7Q0FW4=",
+  "Hash": "aESgkKy5GwW2nTHwP9crjxjkp5uy1puufc8bOQdF1u0=",
   "Source": "CRUD",
   "BasePath": "_content/CRUD",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CRUD\\wwwroot",
       "Source": "CRUD",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\obj\\Debug\\net7.0\\scopedcss\\bundle\\CRUD.styles.css",
+      "Identity": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\obj\\Debug\\net7.0\\scopedcss\\bundle\\CRUD.styles.css",
       "SourceId": "CRUD",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "CRUD.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\obj\\Debug\\net7.0\\scopedcss\\bundle\\CRUD.styles.css"
+      "OriginalItemSpec": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\obj\\Debug\\net7.0\\scopedcss\\bundle\\CRUD.styles.css"
     },
     {
-      "Identity": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CRUD.bundle.scp.css",
+      "Identity": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CRUD.bundle.scp.css",
       "SourceId": "CRUD",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "CRUD.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CRUD.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CRUD.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "CRUD",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "CRUD",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "CRUD",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "CRUD",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "CRUD",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "CRUD",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "CRUD",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "CRUD",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "CRUD",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "CRUD",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "CRUD",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\css\\site.css",
       "SourceId": "CRUD",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\favicon.png",
       "SourceId": "CRUD",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

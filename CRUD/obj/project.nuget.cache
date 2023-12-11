@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zph5BJ0YPPb/IBKqoevv4V2anaT/Pf0bJd/E9q8WJezGcfEdKTyoUgD+5aND3y1AXgvCYVUojT9XejtUDkOZVA==",
+  "dgSpecHash": "OLzTA/hp+cOsLt1B5Z350g2Y0vNN7X05e7G283uCBDDaK2/MVrLdqd6kbwZYNF4/SDzREiXU6D1Nso0cp4tsGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\CRUD.csproj",
+  "projectFilePath": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\CRUD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\breno\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\breno\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

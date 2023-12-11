@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\CRUD.csproj": {}
+    "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\CRUD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\CRUD.csproj": {
+    "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\CRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\CRUD.csproj",
+        "projectUniqueName": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\CRUD.csproj",
         "projectName": "CRUD",
-        "projectPath": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\CRUD.csproj",
+        "projectPath": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\CRUD.csproj",
         "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\breno\\Documents\\educacao\\trabalho_dot_net\\CRUD\\obj\\",
+        "outputPath": "C:\\Users\\breno\\Documents\\faculdade\\disciplinas\\dotnet\\repositorio\\trabalho-dot-net\\CRUD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
