@@ -41,13 +41,13 @@
                     {
                         <tr>
                             <td colspan="6">
-                                <strong>Nenhum produto disponível</strong>
+                                <strong>Nenhuma peça disponível</strong>
                             </td>
                         </tr>
                     }
                 </tbody>
             </table>
-            <NavLink href="/novoproduto">Criar novoproduto</NavLink>
+            <NavLink href="/novoproduto">Adicionar nova peça</NavLink>
         </div>
 
     </Authorized>
@@ -79,7 +79,7 @@
     private async Task removeProduto(Produto produto)
     {
         // confirmar a remoção do produto antes de deletar
-        var confirm = await JS.InvokeAsync<bool>("confirm", $"Deseja remover o produto {produto.Nome}?");
+        var confirm = await JS.InvokeAsync<bool>("confirm", $"Deseja remover a peça {produto.Nome}?");
         if (confirm)
         {
             await service.DeleteProductAsync(produto);
