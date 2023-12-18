@@ -5,7 +5,10 @@
 - [x] delet
 
 # Peças
-- [ ] create
-- [ ] read
+- [x] create
+- [x] read
 - [ ] update
-- [ ] delet
+- [x] delet
+
+# Relatório Adm
+- [x] Filtro de busca
