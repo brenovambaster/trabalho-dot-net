@@ -27,7 +27,7 @@ public class VeiculoService
     /// <summary>
     /// Adiciona um novo Veiculo para DbContext e o salva
     /// </summary>
-    /// <param name="prod"></param>
+    /// <param name="veiculo"></param>
     /// <returns></returns>
     public async Task<Veiculo> AddVeiculoAsync(Veiculo veiculo)
     {
@@ -46,16 +46,16 @@ public class VeiculoService
     /// <summary>
     /// Atualiza um Veiculo e salva as mudanças
     /// </summary>
-    /// <param name="prod"></param>
+    /// <param name="veic"></param>
     /// <returns></returns>
-    public async Task<Veiculo> UpdateVeiculoAsync(Veiculo prod)
+    public async Task<Veiculo> UpdateVeiculoAsync(Veiculo veic)
     {
         try
         {
-            var productExist = dbContext.Veiculo.FirstOrDefault(p => p.Id == prod.Id);
+            var productExist = dbContext.Veiculo.FirstOrDefault(p => p.Id == veic.Id);
             if (productExist != null)
             {
-                dbContext.Update(prod);
+                dbContext.Update(veic);
                 await dbContext.SaveChangesAsync();
             }
         }
@@ -63,7 +63,7 @@ public class VeiculoService
         {
             throw;
         }
-        return prod;
+        return veic;
     }
 
     /// <summary>
@@ -83,8 +83,6 @@ public class VeiculoService
             throw;
         }
     }
-
-
 
     /// <summary>
     /// Filters vehicles by color asynchronously.
