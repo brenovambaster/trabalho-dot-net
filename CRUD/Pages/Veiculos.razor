@@ -13,7 +13,8 @@
         <div class="container mt-3">
             <div class="col mt-2 mb-4">
                 <a href="novoveiculo" class="btn btn-warning oi oi-plus "> Cadastar veículo</a>
-                <a href="veiculos/" class="btn btn-info oi oi-magnifying-glass "> Pesquisar por placa</a>
+                <a href="veiculos/" class="btn btn-info oi oi-magnifying-glass " @onclick="pesquisarPlaca"> Pesquisar
+                    por placa</a>
                 <button class="btn btn-sm btn-primary">
                     <span class="oi oi-magnifying-glass" @onclick="filtraCor"> Filtragem por cor</span>
                 </button>
@@ -103,6 +104,16 @@
     {
         stateContainer.AtualizaVeiculo(veic);
         navigationManager.NavigateTo("/NovoVeiculo");
+    }
+
+    private async Task pesquisarPlaca()
+    {
+        var resp = await JS.InvokeAsync<string>("window.prompt", $"Deseja pesquisar por qual placa?");
+
+        if (resp != null)
+        {
+            veiculos = await service.PesquisarPorPlacaAsync(resp);
+        }
     }
     private async Task filtraCor()
     {

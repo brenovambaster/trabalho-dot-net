@@ -106,5 +106,25 @@ public class VeiculoService
     }
 
 
+    /// <summary>
+    /// Searches for a vehicle by its license plate asynchronously.
+    /// </summary>
+    /// <param name="placa">The license plate to search for.</param>
+    /// <returns>The found vehicle or null if not found.</returns>
+    public async Task<List<Veiculo>?> PesquisarPorPlacaAsync(string placa)
+    {
+        try
+        {
+            var data = await dbContext.Veiculo.Where(v => EF.Functions.Like(v.Placa, placa)).ToListAsync();
+            return (data == null) ? (List<Veiculo>)null : data;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred while filtering vehicles by color: {ex.Message}");
+            return null;
+        }
+    }
+
+
     #endregion
 }
