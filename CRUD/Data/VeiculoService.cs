@@ -83,5 +83,28 @@ public class VeiculoService
             throw;
         }
     }
+
+
+
+    /// <summary>
+    /// Filters vehicles by color asynchronously.
+    /// </summary>
+    /// <param name="cor">The color to filter by.</param>
+    /// <returns>A list of vehicles matching the specified color, or null if no vehicles are found.</returns>
+    public async Task<List<Veiculo>?> FiltrarPorCorAsync(string cor)
+    {
+        try
+        {
+            var data = await dbContext.Veiculo.Where(v => EF.Functions.Like(v.Cor, cor)).ToListAsync();
+            return (data == null) ? (List<Veiculo>?)null : data;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred while filtering vehicles by color: {ex.Message}");
+            return null;
+        }
+    }
+
+
     #endregion
 }

@@ -14,6 +14,12 @@
             <div class="col mt-2 mb-4">
                 <a href="novoveiculo" class="btn btn-warning oi oi-plus "> Cadastar veículo</a>
                 <a href="veiculos/" class="btn btn-info oi oi-magnifying-glass "> Pesquisar por placa</a>
+                <button class="btn btn-sm btn-primary">
+                    <span class="oi oi-magnifying-glass" @onclick="filtraCor"> Filtragem por cor</span>
+                </button>
+                <button class="btn btn-primary btn-sm" @onclick="(()=>AtualizaVeiculos())">
+                    <span class=" oi oi-reload"></span>
+                </button>
             </div>
             <table class="table  table-striped">
                 <thead class="thead-dark">
@@ -43,8 +49,15 @@
                                     <span class=" oi oi-pencil"></span>
                                 </button>
 
+
                             </td>
 
+                        </tr>
+                    }
+                    @if (veiculos.Count == 0)
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center">Nenhum veículo encontrado</td>
                         </tr>
                     }
                 </tbody>
@@ -91,6 +104,14 @@
         stateContainer.AtualizaVeiculo(veic);
         navigationManager.NavigateTo("/NovoVeiculo");
     }
+    private async Task filtraCor()
+    {
+        var resp = await JS.InvokeAsync<string>("window.prompt", $"Deseja filtrar por qual cor?");
 
+        if (resp != null)
+        {
+            veiculos = await service.FiltrarPorCorAsync(resp);
+        }
+    }
 
 }
